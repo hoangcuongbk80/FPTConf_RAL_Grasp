@@ -1,0 +1,263 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{hoang2023grasp}
+D.-C. Hoang, A.-N. Nguyen, V.-D. Vu, D.-Q. Vu, V.-T. Nguyen, T.-U. Nguyen,
+  C.-T. Tran, K.-T. Phan, and N.-T. Ho, ``Grasp configuration synthesis from 3d
+  point clouds with attention mechanism,'' \emph{Journal of Intelligent \&
+  Robotic Systems}, vol. 109, no.~3, p.~71, 2023.
+
+\bibitem{hoang2022context}
+D.-C. Hoang, J.~A. Stork, and T.~Stoyanov, ``Context-aware grasp generation in
+  cluttered scenes,'' in \emph{2022 International Conference on Robotics and
+  Automation (ICRA)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2022, pp.
+  1492--1498.
+
+\bibitem{fang2020graspnet}
+H.-S. Fang, C.~Wang, M.~Gou, and C.~Lu, ``Graspnet-1billion: A large-scale
+  benchmark for general object grasping,'' in \emph{Proceedings of the IEEE/CVF
+  Conference on Computer Vision and Pattern Recognition}, 2020, pp.
+  11\,444--11\,453.
+
+\bibitem{du2021vision}
+G.~Du, K.~Wang, S.~Lian, and K.~Zhao, ``Vision-based robotic grasping from
+  object localization, object pose estimation to grasp estimation for parallel
+  grippers: a review,'' \emph{Artificial Intelligence Review}, vol.~54, no.~3,
+  pp. 1677--1734, 2021.
+
+\bibitem{hoang2020panoptic}
+D.-C. Hoang, A.~J. Lilienthal, and T.~Stoyanov, ``Panoptic 3d mapping and
+  object pose estimation using adaptively weighted semantic information,''
+  \emph{IEEE Robotics and Automation Letters}, vol.~5, no.~2, pp. 1962--1969,
+  2020.
+
+\bibitem{hoang2020object}
+------, ``Object-rpe: Dense 3d reconstruction and pose estimation with
+  convolutional neural networks,'' \emph{Robotics and Autonomous Systems}, vol.
+  133, p. 103632, 2020.
+
+\bibitem{hoang2016sub}
+D.-C. Hoang, L.-C. Chen, and T.-H. Nguyen, ``Sub-obb based object recognition
+  and localization algorithm using range images,'' \emph{Measurement Science
+  and Technology}, vol.~28, no.~2, p. 025401, 2016.
+
+\bibitem{ten2017grasp}
+A.~ten Pas, M.~Gualtieri, K.~Saenko, and R.~Platt, ``Grasp pose detection in
+  point clouds,'' \emph{The International Journal of Robotics Research},
+  vol.~36, no. 13-14, pp. 1455--1473, 2017.
+
+\bibitem{liang2019pointnetgpd}
+H.~Liang, X.~Ma, S.~Li, M.~G{\"o}rner, S.~Tang, B.~Fang, F.~Sun, and J.~Zhang,
+  ``Pointnetgpd: Detecting grasp configurations from point sets,'' in
+  \emph{2019 International Conference on Robotics and Automation (ICRA)}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2019, pp. 3629--3635.
+
+\bibitem{zou2023object}
+Z.~Zou, K.~Chen, Z.~Shi, Y.~Guo, and J.~Ye, ``Object detection in 20 years: A
+  survey,'' \emph{Proceedings of the IEEE}, 2023.
+
+\bibitem{marullo20236d}
+G.~Marullo, L.~Tanzi, P.~Piazzolla, and E.~Vezzetti, ``6d object position
+  estimation from 2d images: a literature review,'' \emph{Multimedia Tools and
+  Applications}, vol.~82, no.~16, pp. 24\,605--24\,643, 2023.
+
+\bibitem{bicchi2000robotic}
+A.~Bicchi and V.~Kumar, ``Robotic grasping and contact: A review,'' in
+  \emph{Proceedings 2000 ICRA. Millennium conference. IEEE international
+  conference on robotics and automation. Symposia proceedings (Cat. No.
+  00CH37065)}, vol.~1.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2000, pp.
+  348--353.
+
+\bibitem{miller2003automatic}
+A.~T. Miller, S.~Knoop, H.~I. Christensen, and P.~K. Allen, ``Automatic grasp
+  planning using shape primitives,'' in \emph{2003 IEEE International
+  Conference on Robotics and Automation (Cat. No. 03CH37422)}, vol.~2.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2003, pp. 1824--1829.
+
+\bibitem{lou2020learning}
+X.~Lou, Y.~Yang, and C.~Choi, ``Learning to generate 6-dof grasp poses with
+  reachability awareness,'' in \emph{2020 IEEE International Conference on
+  Robotics and Automation (ICRA)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2020, pp. 1532--1538.
+
+\bibitem{kokic2020learning}
+M.~Kokic, D.~Kragic, and J.~Bohg, ``Learning task-oriented grasping from human
+  activity datasets,'' \emph{IEEE Robotics and Automation Letters}, vol.~5,
+  no.~2, pp. 3352--3359, 2020.
+
+\bibitem{schmidt2018grasping}
+P.~Schmidt, N.~Vahrenkamp, M.~W{\"a}chter, and T.~Asfour, ``Grasping of unknown
+  objects using deep convolutional neural networks based on depth images,'' in
+  \emph{2018 IEEE international conference on robotics and automation
+  (ICRA)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2018, pp. 6831--6838.
+
+\bibitem{yang2021robotic}
+D.~Yang, T.~Tosun, B.~Eisner, V.~Isler, and D.~Lee, ``Robotic grasping through
+  combined image-based grasp proposal and 3d reconstruction,'' in \emph{2021
+  IEEE International Conference on Robotics and Automation (ICRA)}.\hskip 1em
+  plus 0.5em minus 0.4em\relax IEEE, 2021, pp. 6350--6356.
+
+\bibitem{ni2020pointnet++}
+P.~{Ni}, W.~{Zhang}, X.~{Zhu}, and Q.~{Cao}, ``Pointnet++ grasping: Learning an
+  end-to-end spatial grasp generation algorithm from sparse point clouds,'' in
+  \emph{2020 IEEE International Conference on Robotics and Automation (ICRA)},
+  2020, pp. 3619--3625.
+
+\bibitem{saxena2005learning}
+A.~Saxena, S.~Chung, and A.~Ng, ``Learning depth from single monocular
+  images,'' \emph{Advances in neural information processing systems}, vol.~18,
+  2005.
+
+\bibitem{saxena2008make3d}
+A.~Saxena, M.~Sun, and A.~Y. Ng, ``Make3d: Learning 3d scene structure from a
+  single still image,'' \emph{IEEE transactions on pattern analysis and machine
+  intelligence}, vol.~31, no.~5, pp. 824--840, 2008.
+
+\bibitem{eigen2014depth}
+D.~Eigen, C.~Puhrsch, and R.~Fergus, ``Depth map prediction from a single image
+  using a multi-scale deep network,'' \emph{Advances in neural information
+  processing systems}, vol.~27, 2014.
+
+\bibitem{eigen2015predicting}
+D.~Eigen and R.~Fergus, ``Predicting depth, surface normals and semantic labels
+  with a common multi-scale convolutional architecture,'' in \emph{Proceedings
+  of the IEEE international conference on computer vision}, 2015, pp.
+  2650--2658.
+
+\bibitem{laina2016deeper}
+I.~Laina, C.~Rupprecht, V.~Belagiannis, F.~Tombari, and N.~Navab, ``Deeper
+  depth prediction with fully convolutional residual networks,'' in \emph{2016
+  Fourth international conference on 3D vision (3DV)}.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2016, pp. 239--248.
+
+\bibitem{xu2017multi}
+D.~Xu, E.~Ricci, W.~Ouyang, X.~Wang, and N.~Sebe, ``Multi-scale continuous crfs
+  as sequential deep networks for monocular depth estimation,'' in
+  \emph{Proceedings of the IEEE conference on computer vision and pattern
+  recognition}, 2017, pp. 5354--5362.
+
+\bibitem{jiao2018look}
+J.~Jiao, Y.~Cao, Y.~Song, and R.~Lau, ``Look deeper into depth: Monocular depth
+  estimation with semantic booster and attention-driven loss,'' in
+  \emph{Proceedings of the European conference on computer vision (ECCV)},
+  2018, pp. 53--69.
+
+\bibitem{ramamonjisoa2019sharpnet}
+M.~Ramamonjisoa and V.~Lepetit, ``Sharpnet: Fast and accurate recovery of
+  occluding contours in monocular depth estimation,'' in \emph{Proceedings of
+  the IEEE/CVF International Conference on Computer Vision Workshops}, 2019,
+  pp. 0--0.
+
+\bibitem{zhang2019pattern}
+Z.~Zhang, Z.~Cui, C.~Xu, Y.~Yan, N.~Sebe, and J.~Yang, ``Pattern-affinitive
+  propagation across depth, surface normal and semantic segmentation,'' in
+  \emph{Proceedings of the IEEE/CVF conference on computer vision and pattern
+  recognition}, 2019, pp. 4106--4115.
+
+\bibitem{lee2019big}
+J.~H. Lee, M.-K. Han, D.~W. Ko, and I.~H. Suh, ``From big to small: Multi-scale
+  local planar guidance for monocular depth estimation,'' \emph{arXiv preprint
+  arXiv:1907.10326}, 2019.
+
+\bibitem{kendall2018multi}
+A.~Kendall, Y.~Gal, and R.~Cipolla, ``Multi-task learning using uncertainty to
+  weigh losses for scene geometry and semantics,'' in \emph{Proceedings of the
+  IEEE conference on computer vision and pattern recognition}, 2018, pp.
+  7482--7491.
+
+\bibitem{yin2019enforcing}
+W.~Yin, Y.~Liu, C.~Shen, and Y.~Yan, ``Enforcing geometric constraints of
+  virtual normal for depth prediction,'' in \emph{Proceedings of the IEEE/CVF
+  International Conference on Computer Vision}, 2019, pp. 5684--5693.
+
+\bibitem{chen2020improving}
+T.~Chen, S.~An, Y.~Zhang, C.~Ma, H.~Wang, X.~Guo, and W.~Zheng, ``Improving
+  monocular depth estimation by leveraging structural awareness and
+  complementary datasets,'' in \emph{Computer Vision--ECCV 2020: 16th European
+  Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part XIV
+  16}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2020, pp. 90--108.
+
+\bibitem{ranftl2021vision}
+R.~Ranftl, A.~Bochkovskiy, and V.~Koltun, ``Vision transformers for dense
+  prediction,'' in \emph{Proceedings of the IEEE/CVF international conference
+  on computer vision}, 2021, pp. 12\,179--12\,188.
+
+\bibitem{yang2021transformer}
+G.~Yang, H.~Tang, M.~Ding, N.~Sebe, and E.~Ricci, ``Transformer-based attention
+  networks for continuous pixel-wise prediction,'' in \emph{Proceedings of the
+  IEEE/CVF International Conference on Computer vision}, 2021, pp.
+  16\,269--16\,279.
+
+\bibitem{piccinelli2023idisc}
+L.~Piccinelli, C.~Sakaridis, and F.~Yu, ``idisc: Internal discretization for
+  monocular depth estimation,'' in \emph{Proceedings of the IEEE/CVF Conference
+  on Computer Vision and Pattern Recognition}, 2023, pp. 21\,477--21\,487.
+
+\bibitem{he2016deep}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image
+  recognition,'' in \emph{Proceedings of the IEEE conference on computer vision
+  and pattern recognition}, 2016, pp. 770--778.
+
+\bibitem{qi2017pointnet++}
+C.~R. Qi, L.~Yi, H.~Su, and L.~J. Guibas, ``Pointnet++: Deep hierarchical
+  feature learning on point sets in a metric space,'' \emph{Advances in neural
+  information processing systems}, vol.~30, 2017.
+
+\bibitem{zhao2021point}
+H.~Zhao, L.~Jiang, J.~Jia, P.~H. Torr, and V.~Koltun, ``Point transformer,'' in
+  \emph{Proceedings of the IEEE/CVF international conference on computer
+  vision}, 2021, pp. 16\,259--16\,268.
+
+\bibitem{vaswani2017attention}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
+  {\L}.~Kaiser, and I.~Polosukhin, ``Attention is all you need,''
+  \emph{Advances in neural information processing systems}, vol.~30, 2017.
+
+\bibitem{woo2018cbam}
+S.~Woo, J.~Park, J.-Y. Lee, and I.~S. Kweon, ``Cbam: Convolutional block
+  attention module,'' in \emph{Proceedings of the European conference on
+  computer vision (ECCV)}, 2018, pp. 3--19.
+
+\bibitem{hu2018squeeze}
+J.~Hu, L.~Shen, and G.~Sun, ``Squeeze-and-excitation networks,'' in
+  \emph{Proceedings of the IEEE conference on computer vision and pattern
+  recognition}, 2018, pp. 7132--7141.
+
+\bibitem{morrison2018closing}
+D.~Morrison, P.~Corke, and J.~Leitner, ``{Closing the Loop for Robotic
+  Grasping: A Real-time, Generative Grasp Synthesis Approach},'' in
+  \emph{Proc.\ of Robotics: Science and Systems (RSS)}, 2018.
+
+\bibitem{chu2018real}
+F.-J. Chu, R.~Xu, and P.~A. Vela, ``Real-world multiobject, multigrasp
+  detection,'' \emph{IEEE Robotics and Automation Letters}, vol.~3, no.~4, pp.
+  3355--3362, 2018.
+
+\bibitem{gou2021rgb}
+M.~Gou, H.-S. Fang, Z.~Zhu, S.~Xu, C.~Wang, and C.~Lu, ``Rgb matters: Learning
+  7-dof grasp poses on monocular rgbd images,'' in \emph{2021 IEEE
+  International Conference on Robotics and Automation (ICRA)}.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 2021, pp. 13\,459--13\,466.
+
+\bibitem{sundermeyer2021contact}
+M.~Sundermeyer, A.~Mousavian, R.~Triebel, and D.~Fox, ``Contact-graspnet:
+  Efficient 6-dof grasp generation in cluttered scenes,'' 2021.
+
+\end{thebibliography}

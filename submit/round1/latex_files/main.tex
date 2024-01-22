@@ -1,0 +1,71 @@
+ \documentclass[usletter, 10pt, conference]{ieeeconf}
+\newcommand{\mbm}[1]{\mbox{\boldmath $#1$}}
+\newcommand{\norm}[1]{\lVert#1\rVert}
+\newcommand{\superscript}[1]{\ensuremath{^{\textrm{#1}}}}
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+\usepackage{url}
+
+\usepackage[ruled,noend,linesnumbered]{algorithm2e}
+%\usepackage{subfigure}
+\usepackage{graphicx,color,psfrag}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{bigdelim}
+\usepackage{dsfont}
+\usepackage{color, soul}
+%\usepackage[section]{placeins}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{cite}
+
+\pdfminorversion=4
+\IEEEoverridecommandlockouts              
+\overrideIEEEmargins
+
+\newcommand{\ville}[1]{\textcolor{blue}{\small Ville: #1}}
+\newcommand{\raj}[1]{\textcolor{green}{\small Raj: #1}}
+
+\title{Grasp Generation with Depth Estimation from Color Images}
+
+% Multiple authors
+\author
+{Van-Thiep Nguyen$^{1}$, Van-Duc Vu$^{1}$, Duy-Quang Vu $^{1}$, \\ Phuc-Quan Ngo$^{1}$, Ngoc-Anh Hoang$^{1}$, Khanh-Toan Phan$^{1}$, \\ Duc-Thanh Tran$^{1}$, Thu-Uyen Nguyen$^{1}$, Cong-Trinh Tran$^{1}$, Ngoc-Trung Ho$^{1}$, Dinh-Cuong Hoang$^{1}$, \\ $^{1}$FPT University, Hanoi, 10000, Vietnam, \\ Corresponding author: Dinh-Cuong Hoang (e-mail: cuonghd7@fpt.edu.vn). % <-this % stops a space
+\thanks{$^{1}$FPT University, Hanoi, Vietnam.}% 
+}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+
+Grasp generation plays a fundamental role in robot manipulation, often relying on three-dimensional (3D) point cloud data acquired through specialized depth cameras. However, the limited availability of such sensors in practical scenarios emphasizes the necessity for alternative approaches. This paper introduces an innovative method for grasp generation directly from color (RGB) images, negating the reliance on dedicated depth sensors. The proposed method employs tailored deep learning techniques for depth estimation from color images. Instead of traditional depth sensors, our approach computes predicted point clouds from estimated depth images directly generated from RGB inputs. A significant contribution lies in the design of a fusion module adept at seamlessly integrating features extracted from RGB images with those inferred from the predicted point clouds. This fusion process significantly strengthens the grasp generation pipeline by strengthening the advantages of both modalities, yielding notably improved grasp configurations. Experimental evaluations on standard datasets validate the efficacy of our approach, demonstrating its superior performance in generating grasp configurations compared to existing methods.
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{Introduction} 
+%
+\input{RelatedWork}
+%
+\input{Method}
+%
+\input{Results}
+%
+\bibliographystyle{IEEEtran}
+\bibliography{References}
+
+
+
+\end{document}

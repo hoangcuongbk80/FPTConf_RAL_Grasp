@@ -1,58 +1,112 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-The style file: IEEEtran.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: References.bib
--- IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
--- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in sundermeyer2021contact
-
-Done.
-You've used 44 entries,
-            3975 wiz_defined-function locations,
-            1024 strings with 16104 characters,
-and the built_in function-call counts, 40291 in all, are:
-= -- 3091
-> -- 1085
-< -- 378
-+ -- 642
-- -- 223
-* -- 1970
-:= -- 5510
-add.period$ -- 98
-call.type$ -- 44
-change.case$ -- 44
-chr.to.int$ -- 951
-cite$ -- 45
-duplicate$ -- 2779
-empty$ -- 3309
-format.name$ -- 225
-if$ -- 9430
-int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 472
-newline$ -- 152
-num.names$ -- 44
-pop$ -- 1169
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in bicchi2000robotic
+Warning--empty address in bicchi2000robotic
+Warning--empty publisher in chen2020improving
+Warning--empty address in chen2020improving
+Warning--no number and no volume in dosovitskiy2020image
+Warning--page numbers missing in both pages and numpages fields in dosovitskiy2020image
+Warning--empty publisher in eigen2015predicting
+Warning--empty address in eigen2015predicting
+Warning--page numbers missing in both pages and numpages fields in eigen2014depth
+Warning--empty publisher in fang2020graspnet
+Warning--empty address in fang2020graspnet
+Warning--empty publisher in gou2021rgb
+Warning--empty address in gou2021rgb
+Warning--empty publisher in he2016deep
+Warning--empty address in he2016deep
+Warning--empty publisher in hoang2022context
+Warning--empty address in hoang2022context
+Warning--empty publisher in jiao2018look
+Warning--empty address in jiao2018look
+Warning--empty publisher in kendall2018multi
+Warning--empty address in kendall2018multi
+Warning--empty publisher in laina2016deeper
+Warning--empty address in laina2016deeper
+Warning--no number and no volume in lee2019big
+Warning--page numbers missing in both pages and numpages fields in lee2019big
+Warning--empty publisher in liang2019pointnetgpd
+Warning--empty address in liang2019pointnetgpd
+Warning--empty publisher in lou2020learning
+Warning--empty address in lou2020learning
+Warning--empty publisher in miller2003automatic
+Warning--empty address in miller2003automatic
+Warning--empty publisher in morrison2018closing
+Warning--empty address in morrison2018closing
+Warning--page numbers missing in both pages and numpages fields in morrison2018closing
+Warning--empty publisher in ni2020pointnet++
+Warning--empty address in ni2020pointnet++
+Warning--page numbers missing in both pages and numpages fields in qi2017pointnet++
+Warning--empty publisher in ramamonjisoa2019sharpnet
+Warning--empty address in ramamonjisoa2019sharpnet
+Warning--empty publisher in ranftl2021vision
+Warning--empty address in ranftl2021vision
+Warning--page numbers missing in both pages and numpages fields in saxena2005learning
+Warning--empty publisher in schmidt2018grasping
+Warning--empty address in schmidt2018grasping
+Warning--no journal in sundermeyer2021contact
+Warning--no number and no volume in sundermeyer2021contact
+Warning--page numbers missing in both pages and numpages fields in sundermeyer2021contact
+Warning--page numbers missing in both pages and numpages fields in vaswani2017attention
+Warning--empty publisher in xu2017multi
+Warning--empty address in xu2017multi
+Warning--empty publisher in yang2021robotic
+Warning--empty address in yang2021robotic
+Warning--empty publisher in yang2021transformer
+Warning--empty address in yang2021transformer
+Warning--empty publisher in yin2019enforcing
+Warning--empty address in yin2019enforcing
+Warning--empty publisher in zhang2019pattern
+Warning--empty address in zhang2019pattern
+You've used 39 entries,
+            5733 wiz_defined-function locations,
+            1498 strings with 22994 characters,
+and the built_in function-call counts, 52199 in all, are:
+= -- 6281
+> -- 2182
+< -- 0
++ -- 727
+- -- 696
+* -- 3902
+:= -- 5276
+add.period$ -- 194
+call.type$ -- 39
+change.case$ -- 323
+chr.to.int$ -- 37
+cite$ -- 97
+duplicate$ -- 4554
+empty$ -- 3163
+format.name$ -- 850
+if$ -- 12651
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 179
+newline$ -- 332
+num.names$ -- 310
+pop$ -- 1842
 preamble$ -- 1
-purify$ -- 0
-quote$ -- 2
-skip$ -- 3093
+purify$ -- 670
+quote$ -- 0
+skip$ -- 1612
 stack$ -- 0
-substring$ -- 2401
-swap$ -- 2367
-text.length$ -- 61
+substring$ -- 3830
+swap$ -- 511
+text.length$ -- 0
 text.prefix$ -- 0
-top$ -- 5
-type$ -- 0
-warning$ -- 1
-while$ -- 178
-width$ -- 46
-write$ -- 431
-(There was 1 warning)
+top$ -- 0
+type$ -- 937
+warning$ -- 58
+while$ -- 254
+width$ -- 0
+write$ -- 686
+(There were 58 warnings)

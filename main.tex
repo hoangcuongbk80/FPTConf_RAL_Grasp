@@ -1,17 +1,54 @@
- \documentclass[usletter, 10pt, conference]{ieeeconf}
-\newcommand{\mbm}[1]{\mbox{\boldmath $#1$}}
-\newcommand{\norm}[1]{\lVert#1\rVert}
-\newcommand{\superscript}[1]{\ensuremath{^{\textrm{#1}}}}
-\newcommand\blfootnote[1]{%
-  \begingroup
-  \renewcommand\thefootnote{}\footnote{#1}%
-  \addtocounter{footnote}{-1}%
-  \endgroup
-}
-\usepackage{url}
+%%
+%% This is file `sample-sigplan.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `sigplan')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigplan.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%%
+%% The first command in your LaTeX source must be the \documentclass
+%% command.
+%%
+%% For submission and review of your manuscript please change the
+%% command to \documentclass[manuscript, screen, review]{acmart}.
+%%
+%% When submitting camera ready or to TAPS, please change the command
+%% to \documentclass[sigconf]{acmart} or whichever template is required
+%% for your publication.
+%%
+%%
+\documentclass[nonacm, sigplan]{acmart}
 
+\usepackage{url}
 \usepackage[ruled,noend,linesnumbered]{algorithm2e}
-%\usepackage{subfigure}
 \usepackage{graphicx,color,psfrag}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -19,41 +56,249 @@
 \usepackage{bigdelim}
 \usepackage{dsfont}
 \usepackage{color, soul}
-%\usepackage[section]{placeins}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
-\usepackage{cite}
 
-\pdfminorversion=4
-\IEEEoverridecommandlockouts              
-\overrideIEEEmargins
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
 
-\newcommand{\ville}[1]{\textcolor{blue}{\small Ville: #1}}
-\newcommand{\raj}[1]{\textcolor{green}{\small Raj: #1}}
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{acmcopyright}
+\copyrightyear{2018}
+\acmYear{2018}
+\acmDOI{XXXXXXX.XXXXXXX}
 
-\title{Grasp Generation with Depth Estimation from Color Images}
+%% These commands are for a PROCEEDINGS abstract or paper.
+\acmConference[Conference acronym 'XX]{Make sure to enter the correct
+  conference title from your rights confirmation emai}{June 03--05,
+  2018}{Woodstock, NY}
+%%
+%%  Uncomment \acmBooktitle if the title of the proceedings is different
+%%  from ``Proceedings of ...''!
+%%
+%%\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
+%%  June 03--05, 2018, Woodstock, NY}
+\acmPrice{15.00}
+\acmISBN{978-1-4503-XXXX-X/18/06}
 
-% Multiple authors
-\author
-{Van-Thiep Nguyen$^{1}$, Van-Duc Vu$^{1}$, Duy-Quang Vu $^{1}$, \\ Phuc-Quan Ngo$^{1}$, Ngoc-Anh Hoang$^{1}$, Khanh-Toan Phan$^{1}$, \\ Duc-Thanh Tran$^{1}$, Thu-Uyen Nguyen$^{1}$, Cong-Trinh Tran$^{1}$, Ngoc-Trung Ho$^{1}$, Dinh-Cuong Hoang$^{1}$, \\ $^{1}$FPT University, Hanoi, 10000, Vietnam, \\ Corresponding author: Dinh-Cuong Hoang (e-mail: cuonghd7@fpt.edu.vn). % <-this % stops a space
-\thanks{$^{1}$FPT University, Hanoi, Vietnam.}% 
-}
 
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+
+%%
+%% end of the preamble, start of the body of the document source.
 \begin{document}
-\maketitle
-\thispagestyle{empty}
-\pagestyle{empty}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title[ICIIT 2024]{Grasp Generation with Depth Estimation from Color Images}
 
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+
+\author{Van-Thiep Nguyen}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{thiepnvhe173027@fpt.edu.vn}
+
+\author{Van-Duc Vu}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{ducvvhe176438@fpt.edu.vn}
+
+\author{Ngoc-Anh Hoang}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{anhhnhe186401@fpt.edu.vn}
+
+\author{Thu-Uyen Nguyen}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{uyennthe176614@fpt.edu.vn}
+
+\author{Duy-Quang Vu}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{quangvdhe163133@fpt.edu.vn}
+
+\author{Duc-Thanh Tran}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{thanhtdhe176812@fpt.edu.vn}
+
+\author{Khanh-Toan Phan}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{toanpkhe170983@fpt.edu.vn}
+
+\author{Anh-Truong Mai}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{TruongMAHE182474@fpt.edu.vn}
+
+\author{Van-Hiep Duong}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{hiepdvhe181185@fpt.edu.vn}
+
+\author{Cong-Trinh Tran}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{trinhtche160916@fpt.edu.vn}
+
+\author{Ngoc-Trung Ho}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{trunghnhe172033@fpt.edu.vn}
+
+\author{Quang-Tri Duong}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{TriDQGCH210221@fpt.edu.vn}
+
+\author{Phuc-Quan Ngo}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{QuanNPGCH211110@fpt.edu.vn}
+
+\author{Dinh-Cuong Hoang}
+\affiliation{%
+\institution{FPT University}
+\city{Hanoi}
+\country{Vietnam}
+}
+\email{cuonghd12@fe.edu.vn}
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{V.T Nguyen et al.}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
 \begin{abstract}
-
-Grasp generation plays a fundamental role in robot manipulation, often relying on three-dimensional (3D) point cloud data acquired through specialized depth cameras. However, the limited availability of such sensors in practical scenarios emphasizes the necessity for alternative approaches. This paper introduces an innovative method for grasp generation directly from color (RGB) images, negating the reliance on dedicated depth sensors. The proposed method employs tailored deep learning techniques for depth estimation from color images. Instead of traditional depth sensors, our approach computes predicted point clouds from estimated depth images directly generated from RGB inputs. A significant contribution lies in the design of a fusion module adept at seamlessly integrating features extracted from RGB images with those inferred from the predicted point clouds. This fusion process significantly strengthens the grasp generation pipeline by strengthening the advantages of both modalities, yielding notably improved grasp configurations. Experimental evaluations on standard datasets validate the efficacy of our approach, demonstrating its superior performance in generating grasp configurations compared to existing methods. Furthermore, we achieved a promising 84\% success rate in real robot grasping experiments, underscoring the practical viability of our method. Our code and other materials are available at \url{https://github.com/hoangcuongbk80/DepthEstGrasp}.
-
+Grasp generation plays a fundamental role in robot manipulation, often relying on three-dimensional (3D) point cloud data acquired through specialized depth cameras. However, the limited availability of such sensors in practical scenarios emphasizes the necessity for alternative approaches. This paper introduces an innovative method for grasp generation directly from color (RGB) images, negating the reliance on dedicated depth sensors. The proposed method employs tailored deep learning techniques for depth estimation from color images. Instead of traditional depth sensors, our approach computes predicted point clouds from estimated depth images directly generated from RGB inputs. A significant contribution lies in the design of a fusion module adept at seamlessly integrating features extracted from RGB images with those inferred from the predicted point clouds. This fusion process significantly strengthens the grasp generation pipeline by strengthening the advantages of both modalities, yielding notably improved grasp configurations. Experimental evaluations on standard datasets validate the efficacy of our approach, demonstrating its superior performance in generating grasp configurations compared to existing methods.
 \end{abstract}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+\begin{CCSXML}
+<ccs2012>
+   <concept>
+       <concept_id>10010147.10010178.10010224</concept_id>
+       <concept_desc>Computing methodologies~Computer vision</concept_desc>
+       <concept_significance>500</concept_significance>
+       </concept>
+ </ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Computing methodologies~Computer vision}
+
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{Pose estimation, robot vision systems , intelligent systems,   deep learning, supervised learning, machine vision.}
+%% A "teaser" image appears between the author and affiliation
+%% information and the body of the document, and typically spans the
+%% page.
+
+%\received{20 February 2007}
+%\received[revised]{12 March 2009}
+%\received[accepted]{5 June 2009}
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
 
 \input{Introduction} 
 %
@@ -63,9 +308,11 @@ Grasp generation plays a fundamental role in robot manipulation, often relying o
 %
 \input{Results}
 %
-\bibliographystyle{IEEEtran}
+
+\bibliographystyle{ACM-Reference-Format}
 \bibliography{References}
 
-
-
 \end{document}
+\endinput
+%%
+%% End of file `sample-sigplan.tex'.
