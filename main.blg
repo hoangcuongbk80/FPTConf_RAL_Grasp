@@ -27,6 +27,8 @@ Warning--empty publisher in he2016deep
 Warning--empty address in he2016deep
 Warning--empty publisher in hoang2022context
 Warning--empty address in hoang2022context
+Warning--empty publisher in hoang2019object
+Warning--empty address in hoang2019object
 Warning--empty publisher in jiao2018look
 Warning--empty address in jiao2018look
 Warning--empty publisher in kendall2018multi
@@ -46,6 +48,8 @@ Warning--empty address in morrison2018closing
 Warning--page numbers missing in both pages and numpages fields in morrison2018closing
 Warning--empty publisher in ni2020pointnet++
 Warning--empty address in ni2020pointnet++
+Warning--empty publisher in palleschi2020fully
+Warning--empty address in palleschi2020fully
 Warning--page numbers missing in both pages and numpages fields in qi2017pointnet++
 Warning--empty publisher in ramamonjisoa2019sharpnet
 Warning--empty address in ramamonjisoa2019sharpnet
@@ -58,6 +62,8 @@ Warning--no journal in sundermeyer2021contact
 Warning--no number and no volume in sundermeyer2021contact
 Warning--page numbers missing in both pages and numpages fields in sundermeyer2021contact
 Warning--page numbers missing in both pages and numpages fields in vaswani2017attention
+Warning--no number and no volume in vu2024occlusion
+Warning--page numbers missing in both pages and numpages fields in vu2024occlusion
 Warning--empty publisher in xu2017multi
 Warning--empty address in xu2017multi
 Warning--empty publisher in yang2021robotic
@@ -68,45 +74,45 @@ Warning--empty publisher in yin2019enforcing
 Warning--empty address in yin2019enforcing
 Warning--empty publisher in zhang2019pattern
 Warning--empty address in zhang2019pattern
-You've used 39 entries,
+You've used 44 entries,
             5733 wiz_defined-function locations,
-            1498 strings with 22994 characters,
-and the built_in function-call counts, 52199 in all, are:
-= -- 6281
-> -- 2182
+            1523 strings with 24149 characters,
+and the built_in function-call counts, 58976 in all, are:
+= -- 7130
+> -- 2529
 < -- 0
-+ -- 727
-- -- 696
-* -- 3902
-:= -- 5276
-add.period$ -- 194
-call.type$ -- 39
-change.case$ -- 323
-chr.to.int$ -- 37
-cite$ -- 97
-duplicate$ -- 4554
-empty$ -- 3163
-format.name$ -- 850
-if$ -- 12651
-int.to.chr$ -- 4
++ -- 845
+- -- 808
+* -- 4451
+:= -- 6000
+add.period$ -- 219
+call.type$ -- 44
+change.case$ -- 370
+chr.to.int$ -- 41
+cite$ -- 108
+duplicate$ -- 5086
+empty$ -- 3537
+format.name$ -- 981
+if$ -- 14305
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 179
-newline$ -- 332
-num.names$ -- 310
-pop$ -- 1842
+missing$ -- 201
+newline$ -- 370
+num.names$ -- 349
+pop$ -- 2067
 preamble$ -- 1
-purify$ -- 670
+purify$ -- 760
 quote$ -- 0
-skip$ -- 1612
+skip$ -- 1789
 stack$ -- 0
-substring$ -- 3830
-swap$ -- 511
+substring$ -- 4254
+swap$ -- 566
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 937
-warning$ -- 58
-while$ -- 254
+type$ -- 1042
+warning$ -- 64
+while$ -- 284
 width$ -- 0
-write$ -- 686
-(There were 58 warnings)
+write$ -- 769
+(There were 64 warnings)

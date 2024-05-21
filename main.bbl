@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{39}
+\begin{thebibliography}{44}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -46,6 +46,19 @@
   international conference on robotics and automation. Symposia proceedings
   (Cat. No. 00CH37065)}}, Vol.~\bibinfo{volume}{1}. IEEE,
   \bibinfo{pages}{348--353}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chen, Hoang, Lin, and Nguyen}{Chen
+  et~al\mbox{.}}{2016}]%
+        {chen2016innovative}
+\bibfield{author}{\bibinfo{person}{Liang-Chia Chen},
+  \bibinfo{person}{Dinh-Cuong Hoang}, \bibinfo{person}{Hsien-I Lin}, {and}
+  \bibinfo{person}{Thanh-Hung Nguyen}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Innovative methodology for multi-view point cloud
+  registration in robotic 3D object scanning and reconstruction}.
+\newblock \bibinfo{journal}{\emph{Applied Sciences}} \bibinfo{volume}{6},
+  \bibinfo{number}{5} (\bibinfo{year}{2016}), \bibinfo{pages}{132}.
 \newblock
 
 
@@ -228,14 +241,41 @@
 
 
 \bibitem[\protect\citeauthoryear{Hoang, Stork, and Stoyanov}{Hoang
-  et~al\mbox{.}}{2022}]%
+  et~al\mbox{.}}{2022a}]%
         {hoang2022context}
 \bibfield{author}{\bibinfo{person}{Dinh-Cuong Hoang},
   \bibinfo{person}{Johannes~A Stork}, {and} \bibinfo{person}{Todor Stoyanov}.}
-  \bibinfo{year}{2022}\natexlab{}.
+  \bibinfo{year}{2022}\natexlab{a}.
 \newblock \showarticletitle{Context-aware grasp generation in cluttered
   scenes}. In \bibinfo{booktitle}{\emph{2022 International Conference on
   Robotics and Automation (ICRA)}}. IEEE, \bibinfo{pages}{1492--1498}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hoang, Stork, and Stoyanov}{Hoang
+  et~al\mbox{.}}{2022b}]%
+        {hoang2022voting}
+\bibfield{author}{\bibinfo{person}{Dinh-Cuong Hoang},
+  \bibinfo{person}{Johannes~A Stork}, {and} \bibinfo{person}{Todor Stoyanov}.}
+  \bibinfo{year}{2022}\natexlab{b}.
+\newblock \showarticletitle{Voting and attention-based pose relation learning
+  for object pose estimation from 3d point clouds}.
+\newblock \bibinfo{journal}{\emph{IEEE Robotics and Automation Letters}}
+  \bibinfo{volume}{7}, \bibinfo{number}{4} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{8980--8987}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hoang, Stoyanov, and Lilienthal}{Hoang
+  et~al\mbox{.}}{2019}]%
+        {hoang2019object}
+\bibfield{author}{\bibinfo{person}{Dinh-Cuong Hoang}, \bibinfo{person}{Todor
+  Stoyanov}, {and} \bibinfo{person}{Achim~J Lilienthal}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Object-rpe: Dense 3d reconstruction and pose
+  estimation with convolutional neural networks for warehouse robots}. In
+  \bibinfo{booktitle}{\emph{2019 European Conference on Mobile Robots (ECMR)}}.
+  IEEE, \bibinfo{pages}{1--6}.
 \newblock
 
 
@@ -370,6 +410,20 @@
 \showDOI{\tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Palleschi, Gugliotta, Gabellieri, Hoang,
+  Stoyanov, Garabini, and Pallottino}{Palleschi et~al\mbox{.}}{2020}]%
+        {palleschi2020fully}
+\bibfield{author}{\bibinfo{person}{Alessandro Palleschi},
+  \bibinfo{person}{Marco Gugliotta}, \bibinfo{person}{Chiara Gabellieri},
+  \bibinfo{person}{Dinh-Cuong Hoang}, \bibinfo{person}{Todor Stoyanov},
+  \bibinfo{person}{Manolo Garabini}, {and} \bibinfo{person}{Lucia Pallottino}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Fully autonomous picking with a dual-arm platform
+  for intralogistics}. In \bibinfo{booktitle}{\emph{Proc. I-RIM Conf. I-RIM}}.
+  \bibinfo{pages}{109--111}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Qi, Yi, Su, and Guibas}{Qi
   et~al\mbox{.}}{2017}]%
         {qi2017pointnet++}
@@ -480,6 +534,21 @@
 \newblock \showarticletitle{Attention is all you need}.
 \newblock \bibinfo{journal}{\emph{Advances in neural information processing
   systems}}  \bibinfo{volume}{30} (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vu, Hoang, Tan, Nguyen, Nguyen, Hoang, Phan,
+  Tran, Vu, Ngo, et~al\mbox{.}}{Vu et~al\mbox{.}}{2024}]%
+        {vu2024occlusion}
+\bibfield{author}{\bibinfo{person}{Van-Duc Vu}, \bibinfo{person}{Dinh-Dai
+  Hoang}, \bibinfo{person}{Phan~Xuan Tan}, \bibinfo{person}{Van-Thiep Nguyen},
+  \bibinfo{person}{Thu-Uyen Nguyen}, \bibinfo{person}{Ngoc-Anh Hoang},
+  \bibinfo{person}{Khanh-Toan Phan}, \bibinfo{person}{Duc-Thanh Tran},
+  \bibinfo{person}{Duy-Quang Vu}, \bibinfo{person}{Phuc-Quan Ngo},
+  {et~al\mbox{.}}} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Occlusion-Robust Pallet Pose Estimation for
+  Warehouse Automation}.
+\newblock \bibinfo{journal}{\emph{IEEE Access}} (\bibinfo{year}{2024}).
 \newblock
 
 

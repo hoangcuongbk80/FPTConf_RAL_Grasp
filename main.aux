@@ -20,7 +20,7 @@
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \citation{hoang2023grasp,hoang2022context,fang2020graspnet}
-\citation{du2021vision,hoang2020panoptic,hoang2020object,hoang2016sub}
+\citation{du2021vision,hoang2020panoptic,hoang2020object,hoang2019object,hoang2016sub,hoang2022voting,vu2024occlusion,palleschi2020fully,chen2016innovative}
 \citation{fang2020graspnet,hoang2022context}
 \citation{ten2017grasp,liang2019pointnetgpd,du2021vision}
 \providecommand \oddpage@label [2]{}
@@ -55,27 +55,31 @@
 \newlabel{sec:relatedwork}{{2}{2}{Literature Review}{section.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Learning-based Grasp Generation}{2}{subsection.2.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Monocular Depth Estimation}{2}{subsection.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Materials and Methods}{2}{section.3}}
+\newlabel{sec:methodology}{{3}{2}{Materials and Methods}{section.3}{}}
 \citation{ranftl2021vision}
 \citation{dosovitskiy2020image}
 \citation{he2016deep}
 \citation{qi2017pointnet++}
 \citation{vaswani2017attention}
 \citation{vaswani2017attention}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Materials and Methods}{3}{section.3}}
-\newlabel{sec:methodology}{{3}{3}{Materials and Methods}{section.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Depth Estimation}{3}{subsection.3.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Feature Extraction and Fusion}{3}{subsection.3.2}}
 \citation{hoang2023grasp}
 \citation{hoang2023grasp}
 \citation{fang2020graspnet}
 \citation{fang2020graspnet}
+\citation{qi2017pointnet++}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overview of our network architecture.\relax }}{4}{figure.caption.5}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{fig:Overview}{{1}{4}{Overview of our network architecture.\relax }{figure.caption.5}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Grasp Generation}{4}{subsection.3.3}}
 \newlabel{eq:L_votegrasp_v2}{{4}{4}{Grasp Generation}{equation.3.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Dataset}{4}{subsection.3.4}}
-\citation{qi2017pointnet++}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Result and Discussion}{4}{section.4}}
+\newlabel{sec:evaluation}{{4}{4}{Result and Discussion}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Implementation Details}{4}{subsection.4.1}}
+\newlabel{sec:implement}{{4.1}{4}{Implementation Details}{subsection.4.1}{}}
 \citation{fang2020graspnet}
 \citation{ten2017grasp,fang2020graspnet}
 \citation{morrison2018closing}
@@ -94,62 +98,63 @@
 \citation{gou2021rgb}
 \citation{sundermeyer2021contact}
 \citation{hoang2022context}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Result and Discussion}{5}{section.4}}
-\newlabel{sec:evaluation}{{4}{5}{Result and Discussion}{section.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Examples of input scenes and predicted grasps from the proposed method. The different intensity of grasp color denotes the confidence score of grasps. Green refers to the highest quality grasps and red refers to the lowest ones.\relax }}{5}{figure.caption.6}}
 \newlabel{fig:grasp_result}{{2}{5}{Examples of input scenes and predicted grasps from the proposed method. The different intensity of grasp color denotes the confidence score of grasps. Green refers to the highest quality grasps and red refers to the lowest ones.\relax }{figure.caption.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Implementation Details}{5}{subsection.4.1}}
-\newlabel{sec:implement}{{4.1}{5}{Implementation Details}{subsection.4.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Evaluation on GraspNet-1Billion}{5}{subsection.4.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Robotic Grasping Experiment}{5}{subsection.4.3}}
 \newlabel{sec:real_grasping}{{4.3}{5}{Robotic Grasping Experiment}{subsection.4.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions}{5}{section.5}}
 \bibstyle{ACM-Reference-Format}
 \bibdata{References}
 \bibcite{bicchi2000robotic}{{1}{2000}{{Bicchi and Kumar}}{{Bicchi and Kumar}}}
-\bibcite{chen2020improving}{{2}{2020}{{Chen et~al\unhbox \voidb@x \hbox {.}}}{{Chen, An, Zhang, Ma, Wang, Guo, and Zheng}}}
-\bibcite{chu2018real}{{3}{2018}{{Chu et~al\unhbox \voidb@x \hbox {.}}}{{Chu, Xu, and Vela}}}
-\bibcite{dosovitskiy2020image}{{4}{2020}{{Dosovitskiy et~al\unhbox \voidb@x \hbox {.}}}{{Dosovitskiy, Beyer, Kolesnikov, Weissenborn, Zhai, Unterthiner, Dehghani, Minderer, Heigold, Gelly, et~al\unhbox \voidb@x \hbox {.}}}}
-\bibcite{du2021vision}{{5}{2021}{{Du et~al\unhbox \voidb@x \hbox {.}}}{{Du, Wang, Lian, and Zhao}}}
-\bibcite{eigen2015predicting}{{6}{2015}{{Eigen and Fergus}}{{Eigen and Fergus}}}
-\bibcite{eigen2014depth}{{7}{2014}{{Eigen et~al\unhbox \voidb@x \hbox {.}}}{{Eigen, Puhrsch, and Fergus}}}
-\bibcite{fang2020graspnet}{{8}{2020}{{Fang et~al\unhbox \voidb@x \hbox {.}}}{{Fang, Wang, Gou, and Lu}}}
-\bibcite{gou2021rgb}{{9}{2021}{{Gou et~al\unhbox \voidb@x \hbox {.}}}{{Gou, Fang, Zhu, Xu, Wang, and Lu}}}
-\bibcite{he2016deep}{{10}{2016}{{He et~al\unhbox \voidb@x \hbox {.}}}{{He, Zhang, Ren, and Sun}}}
+\bibcite{chen2016innovative}{{2}{2016}{{Chen et~al\unhbox \voidb@x \hbox {.}}}{{Chen, Hoang, Lin, and Nguyen}}}
+\bibcite{chen2020improving}{{3}{2020}{{Chen et~al\unhbox \voidb@x \hbox {.}}}{{Chen, An, Zhang, Ma, Wang, Guo, and Zheng}}}
+\bibcite{chu2018real}{{4}{2018}{{Chu et~al\unhbox \voidb@x \hbox {.}}}{{Chu, Xu, and Vela}}}
+\bibcite{dosovitskiy2020image}{{5}{2020}{{Dosovitskiy et~al\unhbox \voidb@x \hbox {.}}}{{Dosovitskiy, Beyer, Kolesnikov, Weissenborn, Zhai, Unterthiner, Dehghani, Minderer, Heigold, Gelly, et~al\unhbox \voidb@x \hbox {.}}}}
+\bibcite{du2021vision}{{6}{2021}{{Du et~al\unhbox \voidb@x \hbox {.}}}{{Du, Wang, Lian, and Zhao}}}
+\bibcite{eigen2015predicting}{{7}{2015}{{Eigen and Fergus}}{{Eigen and Fergus}}}
+\bibcite{eigen2014depth}{{8}{2014}{{Eigen et~al\unhbox \voidb@x \hbox {.}}}{{Eigen, Puhrsch, and Fergus}}}
+\bibcite{fang2020graspnet}{{9}{2020}{{Fang et~al\unhbox \voidb@x \hbox {.}}}{{Fang, Wang, Gou, and Lu}}}
+\bibcite{gou2021rgb}{{10}{2021}{{Gou et~al\unhbox \voidb@x \hbox {.}}}{{Gou, Fang, Zhu, Xu, Wang, and Lu}}}
+\bibcite{he2016deep}{{11}{2016}{{He et~al\unhbox \voidb@x \hbox {.}}}{{He, Zhang, Ren, and Sun}}}
+\bibcite{hoang2016sub}{{12}{2016}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Chen, and Nguyen}}}
+\bibcite{hoang2020object}{{13}{2020a}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Lilienthal, and Stoyanov}}}
+\bibcite{hoang2020panoptic}{{14}{2020b}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Lilienthal, and Stoyanov}}}
+\bibcite{hoang2023grasp}{{15}{2023}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Nguyen, Vu, Vu, Nguyen, Nguyen, Tran, Phan, and Ho}}}
+\bibcite{hoang2022context}{{16}{2022a}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Stork, and Stoyanov}}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces The table shows the results on GraspNet-1Billion test set captured by RealSense/Kinect sensors respectively.\relax }}{6}{table.caption.7}}
 \newlabel{tab:grasp_detect_eval}{{1}{6}{The table shows the results on GraspNet-1Billion test set captured by RealSense/Kinect sensors respectively.\relax }{table.caption.7}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Results of real robot experiments. The networks were trained on the GraspNet-1Billion dataset. The table shows the number of attempts, the number of successful attempts, and the grasp success rate.\relax }}{6}{table.caption.8}}
 \newlabel{tab:real_grasping}{{2}{6}{Results of real robot experiments. The networks were trained on the GraspNet-1Billion dataset. The table shows the number of attempts, the number of successful attempts, and the grasp success rate.\relax }{table.caption.8}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions}{6}{section.5}}
 \@writefile{toc}{\contentsline {section}{References}{6}{section*.10}}
-\bibcite{hoang2016sub}{{11}{2016}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Chen, and Nguyen}}}
-\bibcite{hoang2020object}{{12}{2020a}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Lilienthal, and Stoyanov}}}
-\bibcite{hoang2020panoptic}{{13}{2020b}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Lilienthal, and Stoyanov}}}
-\bibcite{hoang2023grasp}{{14}{2023}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Nguyen, Vu, Vu, Nguyen, Nguyen, Tran, Phan, and Ho}}}
-\bibcite{hoang2022context}{{15}{2022}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Stork, and Stoyanov}}}
-\bibcite{jiao2018look}{{16}{2018}{{Jiao et~al\unhbox \voidb@x \hbox {.}}}{{Jiao, Cao, Song, and Lau}}}
-\bibcite{kendall2018multi}{{17}{2018}{{Kendall et~al\unhbox \voidb@x \hbox {.}}}{{Kendall, Gal, and Cipolla}}}
-\bibcite{kokic2020learning}{{18}{2020}{{Kokic et~al\unhbox \voidb@x \hbox {.}}}{{Kokic, Kragic, and Bohg}}}
-\bibcite{laina2016deeper}{{19}{2016}{{Laina et~al\unhbox \voidb@x \hbox {.}}}{{Laina, Rupprecht, Belagiannis, Tombari, and Navab}}}
-\bibcite{lee2019big}{{20}{2019}{{Lee et~al\unhbox \voidb@x \hbox {.}}}{{Lee, Han, Ko, and Suh}}}
-\bibcite{liang2019pointnetgpd}{{21}{2019}{{Liang et~al\unhbox \voidb@x \hbox {.}}}{{Liang, Ma, Li, Gorner, Tang, Fang, Sun, and Zhang}}}
-\bibcite{lou2020learning}{{22}{2020}{{Lou et~al\unhbox \voidb@x \hbox {.}}}{{Lou, Yang, and Choi}}}
-\bibcite{miller2003automatic}{{23}{2003}{{Miller et~al\unhbox \voidb@x \hbox {.}}}{{Miller, Knoop, Christensen, and Allen}}}
-\bibcite{morrison2018closing}{{24}{2018}{{Morrison et~al\unhbox \voidb@x \hbox {.}}}{{Morrison, Corke, and Leitner}}}
-\bibcite{ni2020pointnet++}{{25}{2020}{{{Ni} et~al\unhbox \voidb@x \hbox {.}}}{{{Ni}, {Zhang}, {Zhu}, and {Cao}}}}
-\bibcite{qi2017pointnet++}{{26}{2017}{{Qi et~al\unhbox \voidb@x \hbox {.}}}{{Qi, Yi, Su, and Guibas}}}
-\bibcite{ramamonjisoa2019sharpnet}{{27}{2019}{{Ramamonjisoa and Lepetit}}{{Ramamonjisoa and Lepetit}}}
-\bibcite{ranftl2021vision}{{28}{2021}{{Ranftl et~al\unhbox \voidb@x \hbox {.}}}{{Ranftl, Bochkovskiy, and Koltun}}}
-\bibcite{saxena2005learning}{{29}{2005}{{Saxena et~al\unhbox \voidb@x \hbox {.}}}{{Saxena, Chung, and Ng}}}
-\bibcite{saxena2008make3d}{{30}{2008}{{Saxena et~al\unhbox \voidb@x \hbox {.}}}{{Saxena, Sun, and Ng}}}
-\bibcite{schmidt2018grasping}{{31}{2018}{{Schmidt et~al\unhbox \voidb@x \hbox {.}}}{{Schmidt, Vahrenkamp, Wachter, and Asfour}}}
-\bibcite{sundermeyer2021contact}{{32}{2021}{{Sundermeyer et~al\unhbox \voidb@x \hbox {.}}}{{Sundermeyer, Mousavian, Triebel, and Fox}}}
-\bibcite{ten2017grasp}{{33}{2017}{{ten Pas et~al\unhbox \voidb@x \hbox {.}}}{{ten Pas, Gualtieri, Saenko, and Platt}}}
-\bibcite{vaswani2017attention}{{34}{2017}{{Vaswani et~al\unhbox \voidb@x \hbox {.}}}{{Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin}}}
-\bibcite{xu2017multi}{{35}{2017}{{Xu et~al\unhbox \voidb@x \hbox {.}}}{{Xu, Ricci, Ouyang, Wang, and Sebe}}}
-\bibcite{yang2021robotic}{{36}{2021b}{{Yang et~al\unhbox \voidb@x \hbox {.}}}{{Yang, Tosun, Eisner, Isler, and Lee}}}
-\bibcite{yang2021transformer}{{37}{2021a}{{Yang et~al\unhbox \voidb@x \hbox {.}}}{{Yang, Tang, Ding, Sebe, and Ricci}}}
-\bibcite{yin2019enforcing}{{38}{2019}{{Yin et~al\unhbox \voidb@x \hbox {.}}}{{Yin, Liu, Shen, and Yan}}}
-\bibcite{zhang2019pattern}{{39}{2019}{{Zhang et~al\unhbox \voidb@x \hbox {.}}}{{Zhang, Cui, Xu, Yan, Sebe, and Yang}}}
+\bibcite{hoang2022voting}{{17}{2022b}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Stork, and Stoyanov}}}
+\bibcite{hoang2019object}{{18}{2019}{{Hoang et~al\unhbox \voidb@x \hbox {.}}}{{Hoang, Stoyanov, and Lilienthal}}}
+\bibcite{jiao2018look}{{19}{2018}{{Jiao et~al\unhbox \voidb@x \hbox {.}}}{{Jiao, Cao, Song, and Lau}}}
+\bibcite{kendall2018multi}{{20}{2018}{{Kendall et~al\unhbox \voidb@x \hbox {.}}}{{Kendall, Gal, and Cipolla}}}
+\bibcite{kokic2020learning}{{21}{2020}{{Kokic et~al\unhbox \voidb@x \hbox {.}}}{{Kokic, Kragic, and Bohg}}}
+\bibcite{laina2016deeper}{{22}{2016}{{Laina et~al\unhbox \voidb@x \hbox {.}}}{{Laina, Rupprecht, Belagiannis, Tombari, and Navab}}}
+\bibcite{lee2019big}{{23}{2019}{{Lee et~al\unhbox \voidb@x \hbox {.}}}{{Lee, Han, Ko, and Suh}}}
+\bibcite{liang2019pointnetgpd}{{24}{2019}{{Liang et~al\unhbox \voidb@x \hbox {.}}}{{Liang, Ma, Li, Gorner, Tang, Fang, Sun, and Zhang}}}
+\bibcite{lou2020learning}{{25}{2020}{{Lou et~al\unhbox \voidb@x \hbox {.}}}{{Lou, Yang, and Choi}}}
+\bibcite{miller2003automatic}{{26}{2003}{{Miller et~al\unhbox \voidb@x \hbox {.}}}{{Miller, Knoop, Christensen, and Allen}}}
+\bibcite{morrison2018closing}{{27}{2018}{{Morrison et~al\unhbox \voidb@x \hbox {.}}}{{Morrison, Corke, and Leitner}}}
+\bibcite{ni2020pointnet++}{{28}{2020}{{{Ni} et~al\unhbox \voidb@x \hbox {.}}}{{{Ni}, {Zhang}, {Zhu}, and {Cao}}}}
+\bibcite{palleschi2020fully}{{29}{2020}{{Palleschi et~al\unhbox \voidb@x \hbox {.}}}{{Palleschi, Gugliotta, Gabellieri, Hoang, Stoyanov, Garabini, and Pallottino}}}
+\bibcite{qi2017pointnet++}{{30}{2017}{{Qi et~al\unhbox \voidb@x \hbox {.}}}{{Qi, Yi, Su, and Guibas}}}
+\bibcite{ramamonjisoa2019sharpnet}{{31}{2019}{{Ramamonjisoa and Lepetit}}{{Ramamonjisoa and Lepetit}}}
+\bibcite{ranftl2021vision}{{32}{2021}{{Ranftl et~al\unhbox \voidb@x \hbox {.}}}{{Ranftl, Bochkovskiy, and Koltun}}}
+\bibcite{saxena2005learning}{{33}{2005}{{Saxena et~al\unhbox \voidb@x \hbox {.}}}{{Saxena, Chung, and Ng}}}
+\bibcite{saxena2008make3d}{{34}{2008}{{Saxena et~al\unhbox \voidb@x \hbox {.}}}{{Saxena, Sun, and Ng}}}
+\bibcite{schmidt2018grasping}{{35}{2018}{{Schmidt et~al\unhbox \voidb@x \hbox {.}}}{{Schmidt, Vahrenkamp, Wachter, and Asfour}}}
+\bibcite{sundermeyer2021contact}{{36}{2021}{{Sundermeyer et~al\unhbox \voidb@x \hbox {.}}}{{Sundermeyer, Mousavian, Triebel, and Fox}}}
+\bibcite{ten2017grasp}{{37}{2017}{{ten Pas et~al\unhbox \voidb@x \hbox {.}}}{{ten Pas, Gualtieri, Saenko, and Platt}}}
+\bibcite{vaswani2017attention}{{38}{2017}{{Vaswani et~al\unhbox \voidb@x \hbox {.}}}{{Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin}}}
+\bibcite{vu2024occlusion}{{39}{2024}{{Vu et~al\unhbox \voidb@x \hbox {.}}}{{Vu, Hoang, Tan, Nguyen, Nguyen, Hoang, Phan, Tran, Vu, Ngo, et~al\unhbox \voidb@x \hbox {.}}}}
+\bibcite{xu2017multi}{{40}{2017}{{Xu et~al\unhbox \voidb@x \hbox {.}}}{{Xu, Ricci, Ouyang, Wang, and Sebe}}}
+\bibcite{yang2021robotic}{{41}{2021b}{{Yang et~al\unhbox \voidb@x \hbox {.}}}{{Yang, Tosun, Eisner, Isler, and Lee}}}
+\bibcite{yang2021transformer}{{42}{2021a}{{Yang et~al\unhbox \voidb@x \hbox {.}}}{{Yang, Tang, Ding, Sebe, and Ricci}}}
+\bibcite{yin2019enforcing}{{43}{2019}{{Yin et~al\unhbox \voidb@x \hbox {.}}}{{Yin, Liu, Shen, and Yan}}}
+\bibcite{zhang2019pattern}{{44}{2019}{{Zhang et~al\unhbox \voidb@x \hbox {.}}}{{Zhang, Cui, Xu, Yan, Sebe, and Yang}}}
 \newlabel{tocindent-1}{0pt}
 \newlabel{tocindent0}{0pt}
 \newlabel{tocindent1}{4.65pt}

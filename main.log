@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2023.5.31)  22 JAN 2024 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2023.5.31)  24 JAN 2024 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1408,13 +1408,17 @@ Underfull \vbox (badness 1796) has occurred while \output is active []
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ])
-(./RelatedWork.tex) (./Method.tex
-Underfull \vbox (badness 2698) has occurred while \output is active []
+(./RelatedWork.tex
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+)
+(./Method.tex
+Underfull \vbox (badness 1558) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 1.
+(Font)              scaled to size 8.0pt on input line 5.
  [2.2]
-<figs/overview.jpg, id=153, 1256.695pt x 392.46625pt>
+<figs/overview.jpg, id=175, 1256.695pt x 392.46625pt>
 File: figs/overview.jpg Graphic file (type jpg)
 <use figs/overview.jpg>
 Package pdftex.def Info: figs/overview.jpg  used on input line 10.
@@ -1432,25 +1436,18 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
 (Font)              scaled to size 7.3pt on input line 18.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
 (Font)              scaled to size 5.5pt on input line 18.
-
-Underfull \vbox (badness 4927) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3.3]
+[3.3]
 LaTeX Font Info:    Try loading font information for U+dsrom on input line 68.
-
-(/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 ))
-(./Results.tex [4.4 <./figs/overview.jpg>]
-<figs/18_0.png, id=207, 1284.8pt x 722.7pt>
+(./Results.tex
+<figs/18_0.png, id=208, 1284.8pt x 722.7pt>
 File: figs/18_0.png Graphic file (type png)
 <use figs/18_0.png>
 Package pdftex.def Info: figs/18_0.png  used on input line 9.
 (pdftex.def)             Requested size: 113.33902pt x 63.74997pt.
-<figs/37_0.png, id=208, 1284.8pt x 722.7pt>
+<figs/37_0.png, id=209, 1284.8pt x 722.7pt>
 File: figs/37_0.png Graphic file (type png)
 <use figs/37_0.png>
 Package pdftex.def Info: figs/37_0.png  used on input line 10.
@@ -1459,12 +1456,12 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 11.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 11.
-<figs/18_0_grasp.png, id=209, 471.7625pt x 353.32pt>
+<figs/18_0_grasp.png, id=210, 471.7625pt x 353.32pt>
 File: figs/18_0_grasp.png Graphic file (type png)
 <use figs/18_0_grasp.png>
 Package pdftex.def Info: figs/18_0_grasp.png  used on input line 15.
 (pdftex.def)             Requested size: 113.33902pt x 84.8794pt.
-<figs/37_0_grasp.png, id=211, 362.35374pt x 272.01625pt>
+<figs/37_0_grasp.png, id=212, 362.35374pt x 272.01625pt>
 File: figs/37_0_grasp.png Graphic file (type png)
 <use figs/37_0_grasp.png>
 Package pdftex.def Info: figs/37_0_grasp.png  used on input line 16.
@@ -1474,12 +1471,15 @@ Package pdftex.def Info: figs/37_0_grasp.png  used on input line 16.
 Class acmart Warning: A possible image without description on input line 22.
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Overfull \hbox (4.25784pt too wide) in paragraph at lines 29--30
 \T1/LinuxLibertineT-TLF/m/n/10 (-20) RGB im-ages. The out-put ap-pear-ance fea-
 ture from this encoder-
  []
 
-
+[4.4 <./figs/overview.jpg>]
 Overfull \hbox (6.19989pt too wide) in paragraph at lines 40--65
  [] 
  []
@@ -1505,23 +1505,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-[5.5 <./figs/18_0.png (PNG copy)> <./figs/37_0.png (PNG copy)> <./figs/18_0_gra
-sp.png> <./figs/37_0_grasp.png>]) (./main.bbl
+)
+Underfull \vbox (badness 1558) has occurred while \output is active []
+
+ [5.5 <./figs/18_0.png (PNG copy)> <./figs/37_0.png (PNG copy)> <./figs/18_0_gr
+asp.png> <./figs/37_0_grasp.png>] (./main.bbl
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 47.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6.6]
-Underfull \hbox (badness 2111) in paragraph at lines 285--291
+Underfull \hbox (badness 2111) in paragraph at lines 325--331
 []\T1/LinuxLibertineT-TLF/m/n/8 (+20) Iro Laina, Chris-tian Rup-precht, Vasilei
 os Be-la-gian-nis, Fed-erico
  []
 
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
-(Font)              scaled to size 8.0pt on input line 370.
+(Font)              scaled to size 8.0pt on input line 410.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
-(Font)              scaled to size 6.2pt on input line 370.
+(Font)              scaled to size 6.2pt on input line 410.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1544,13 +1547,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 74356C0453E5C9398596E62D25C276C2;2678.
  ) 
 Here is how much of TeX's memory you used:
- 20437 strings out of 492982
- 312828 string characters out of 6134896
- 472513 words of memory out of 5000000
- 22945 multiletter control sequences out of 15000+600000
- 153424 words of font info for 359 fonts, out of 8000000 for 9000
+ 20463 strings out of 492982
+ 313444 string characters out of 6134896
+ 473757 words of memory out of 5000000
+ 22960 multiletter control sequences out of 15000+600000
+ 154068 words of font info for 363 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,11n,94p,2734b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,94p,2734b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/us
 r/share/texlive/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/share/t
 exlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/share/texlive
@@ -1575,10 +1578,10 @@ nts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/
 txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on main.pdf (7 pages, 3592869 bytes).
+Output written on main.pdf (7 pages, 3593263 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
+ 382 PDF objects out of 1000 (max. 8388607)
+ 322 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
  39082 words of extra memory for PDF output out of 42996 (max. 10000000)
 
